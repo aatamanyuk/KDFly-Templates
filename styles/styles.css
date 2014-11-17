@@ -19,19 +19,7 @@ audio, canvas, progress, video {
     z-index: 1024;
     position: fixed;
 }
-.next-button {
-    display: none;
-    position: absolute;
-    z-index: 9999;
-    border: 0px;
-    bottom: 0px;
-    text-align: center;
-    margin: 0 auto;
-    left: 45%;
-    right: 45%;
-    position: fixed;
-    margin-bottom: 5px;
-}
+
 #secondPage {
     display: none;
 }
@@ -118,4 +106,16 @@ audio, canvas, progress, video {
     background-image: -o-linear-gradient(top, #95b91a, #8bb41d);
     background-image: linear-gradient(to bottom, #95b91a, #8bb41d);
     filter: progid: DXImageTransform.Microsoft.gradient(GradientType=0, startColorstr=#95b91a, endColorstr=#8bb41d);
+}
+.next-button {
+    display: none;
+    z-index: 9999;
+    border: 0px;
+    bottom: 0px;
+    text-align: center;
+    margin: 0 auto;
+    left: 45%;
+    right: 45%;
+    position: fixed;
+    margin-bottom: 5px;
 }
