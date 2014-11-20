@@ -1,4 +1,0 @@
-KDFly-Temolates
-===============
-
-KDFly Templates
